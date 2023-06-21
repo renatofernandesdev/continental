@@ -1,0 +1,52 @@
+{
+  "usuario": [
+    {
+      "login": "admin",
+      "senha": "admin",
+      "tipo": "Administrador",
+      "id": 1
+    }
+  ],
+  "reserva": [
+    {
+      "nome": "Renato",
+      "cpf": "12312312311",
+      "rg": "18690555",
+      "quarto": "Suíte Profissional",
+      "diarias": "4",
+      "valor": "1300",
+      "data": "19/06/2023",
+      "id": 1
+    },
+    {
+      "nome": "Eduardo",
+      "cpf": "1244124114214",
+      "rg": "141241311",
+      "quarto": "Suíte Classic",
+      "diarias": 8,
+      "valor": 1300,
+      "data": "19/06/2023",
+      "id": 2
+    },
+    {
+      "nome": "Augusto",
+      "cpf": "2413426357",
+      "rg": "45252366",
+      "quarto": "Quarto Profissional",
+      "diarias": 7,
+      "valor": 2200,
+      "data": "19/06/2023",
+      "id": 3
+    },
+    {
+      "nome": "Caio",
+      "cpf": "12887147817",
+      "rg": "3847983",
+      "quarto": "Suíte Executiva",
+      "diarias": 14,
+      "valor": 3600,
+      "data": "20/06/2023",
+      "id": 4
+    }
+  ]
+}
