@@ -1,0 +1,285 @@
+:root {
+  --golden: #C09833;
+  --light_golden: #E6C65C;
+  --light_golden_bk: #C8AF64;
+}
+
+body{
+  margin: 0px;
+  background-color: lightgrey;
+  background-image: url('../img/fundo.jpg');
+}
+
+h1, h2, h3, h4, h4, h5, h6, p, a, label{
+  color: white;
+}
+
+a{
+  font-size: 12px;
+  text-decoration: none;
+}
+
+  a:hover{
+    text-decoration: underline;
+  }
+
+.drop_btn{
+  background-color: grey!important;
+}
+
+  .drop_btn:hover{
+    background-color: grey;
+  }
+
+  .drop_btn a{
+    background-color: lightgray;
+  }
+
+.btn1 {
+  background-color: var(--light_golden)!important;
+  border-color: var(--golden)!important;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.home_border {
+  border-color: var(--golden)!important;
+  border-width: 4px!important;
+}
+
+.logohotel{
+  width: 100%;
+}
+
+.espaco{
+  margin-right: 20px;
+}
+
+.menudireita{
+  margin-left: 1px;
+}
+
+.container {
+  justify-content: center;
+  align-items: center;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: rgb(43, 48, 53);
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+position: relative;
+display: inline-block;
+z-index: 10;
+}
+
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 10;
+  }
+
+
+  /* Links inside the dropdown */
+  .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  z-index: 10;
+  }
+
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: rgb(43, 48, 53);}
+
+.logofooter{
+  display: inline-block;
+  margin-left: 55px;
+  margin-top: 20px;
+  max-width: 20%;
+}
+
+.redes{
+  display: inline-block;
+  margin-left: 125px;
+}
+
+#inlineblock{
+  display: inline-block;
+  margin-left: 180px;
+  margin-top: -100px;
+}
+
+.rede:hover{
+margin-left: 1px;
+border: 1px solid gray;
+border-radius: 5px;
+}
+
+.espacoright{
+  margin-left: 20px;
+}
+
+.formulario{
+  display: inline-block;
+  display: left;
+}
+
+.updated{
+  margin-right: 100px;
+  width: 25rem;
+  display: inline-block;
+}
+
+.updatedrecursive{
+  width: 25rem;
+  display: inline-block;
+}
+
+.inline-block{
+  display: inline-block;
+}
+
+.left{
+  float: left;
+}
+
+.right{
+  float: right;
+}
+
+.grid{
+  display: grid;
+}
+
+.zindex10{
+  z-index: 10;
+}
+
+.fundo{
+  background-image: 'img/fundo.jpg'!important;
+}
+
+.fundofooter{
+  background-color: black;
+}
+
+#dropdown-menu {
+  background-color: black!important;
+  border-color: var(--golden)!important;
+  border-width: 5px;
+}
+
+.menuresponsivo{
+  right: 20px!important;
+  position: fixed!important;
+}
+
+.menuresponsivo2{
+  margin-left: -174px;
+  z-index: 9;
+}
+
+.bordermenu{
+  border: 5px!important;
+  border-style: solid!important;
+  border-color: black!important;
+  margin-top: 6px;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(39, 92, 234);
+  z-index: 9;
+  padding: 10px;
+}
+
+.p2{
+  font-size: 19px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+.a2{
+  font-size: 25px;
+}
+
+.img-logo {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+
+.css-carrousel{
+  height: 1;
+}
+
+.header{
+  background-color: rgb(3, 5, 2)!important;
+}
+
+.hidden {
+  display: none!important
+}
+
+p{
+  text-align: justify;
+}
+
+.espacoheader{
+  margin-left: 80px!important;
+}
+
+.btn-secondary{
+  background-color: #C09833!important;
+  color: black!important;
+  font-weight: bold;
+  border-width: 3.8px;
+  border-color: rgb(9, 96, 99);
+}
+
+.login{
+  height: 50px;
+}
+
+.login:hover{
+  height: 53px;
+}
+
+.reservar {
+  width: 700px;
+}
+
+.textodiariadiaria{
+  margin-left: 250px;
+}
+
+.textodiariavalor{
+  margin-left: 130px;
+}
+
+.textodiaria{
+  margin-left: 15px!important;
+}
+
+.sign{
+  height: 65%;
+  width: 65%;
+  justify-content: center;
+}

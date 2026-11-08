@@ -1,0 +1,37 @@
+var _desc, _defs, _g;
+var _excluded = ["title", "titleId"];
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+import * as React from "react";
+function SvgFacebook(_ref, svgRef) {
+  var title = _ref.title,
+    titleId = _ref.titleId,
+    props = _objectWithoutProperties(_ref, _excluded);
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: "16px",
+    height: "16px",
+    viewBox: "0 0 16 16",
+    xmlns: "http://www.w3.org/2000/svg",
+    xmlnsXlink: "http://www.w3.org/1999/xlink",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title === undefined ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, "Social Icons/facebook-icon-color") : title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _desc || (_desc = /*#__PURE__*/React.createElement("desc", null, "Created with Sketch.")), _defs || (_defs = /*#__PURE__*/React.createElement("defs", null)), _g || (_g = /*#__PURE__*/React.createElement("g", {
+    id: "Social-Icons/facebook-icon",
+    stroke: "none",
+    strokeWidth: 1,
+    fill: "none",
+    fillRule: "evenodd"
+  }, /*#__PURE__*/React.createElement("path", {
+    d: "M5.6676666,16 L5.6676666,8.68304873 L3,8.68304873 L3,5.88421491 L5.66830941,5.88421491 L5.66830941,3.77176177 C5.66830941,1.3394419 7.25605314,0 9.60552818,0 C10.7304478,0 11.7178059,0.0733027905 12,0.106622241 L12,2.68554769 L10.3286908,2.68554769 C9.05078209,2.68554769 8.81165631,3.24531445 8.81165631,4.07163682 L8.81165631,5.88421491 L11.8695093,5.88421491 L11.472252,8.68304873 L8.81165631,8.68304873 L8.81165631,16 L5.66188129,16 L5.6676666,16 Z",
+    id: "Icon",
+    fill: "#3C5A96"
+  }))));
+}
+var ForwardRef = /*#__PURE__*/React.forwardRef(SvgFacebook);
+export default __webpack_public_path__ + "static/media/facebook.e16b26c3578530022324971aea0d1755.svg";
+export { ForwardRef as ReactComponent };
